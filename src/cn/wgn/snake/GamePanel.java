@@ -89,7 +89,7 @@ public class GamePanel extends JPanel implements KeyListener, ActionListener {
         //画积分
         g.setColor(Color.BLACK);
         g.setFont(new Font("微软雅黑", Font.BOLD, 18));
-        g.drawString("长度：" + lenth, 750, 35);
+        g.drawString("长度：" + lenth, 750, 30);
         g.drawString("积分：" + score, 750, 50);
 
         //游戏提示:是否开始
