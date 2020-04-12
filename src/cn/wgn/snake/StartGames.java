@@ -16,6 +16,8 @@ public class StartGames {
         frame.setResizable(false);
         //关闭事件
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        //游戏图标
+        frame.setIconImage(Data.up.getImage());
 
         //面板JPanel
         frame.add(new GamePanel());

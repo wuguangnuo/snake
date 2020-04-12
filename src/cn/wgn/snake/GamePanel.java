@@ -57,7 +57,7 @@ public class GamePanel extends JPanel implements KeyListener, ActionListener {
     }
 
     /**
-     * 画板:画界面，画蛇
+     * 画板:绘制界面元素
      *
      * @param g Graphics画笔
      */
